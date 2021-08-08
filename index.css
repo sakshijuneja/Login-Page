@@ -26,6 +26,8 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px;
+    margin: 10px;
 }
 .child_2{
     width: 50%;
@@ -42,9 +44,11 @@ form{
     font-family: Roboto;
     letter-spacing: 2px;
     font-size: 20px;
+    color: black;
+     padding: 20px;
 }
 .inner_text{
-    width: 90%;
+    width: 80%;
     height: 60px;
     border: 1px solid #d6d6d6;
     display: flex;
@@ -62,7 +66,7 @@ form{
     border: 1px solid #00ad5f;
 }
 .button{
-    width: 98%;
+    width: 60%;
     height: 50px;
     background-color: #00ad5f;
     font-family: segoe UI;
